@@ -1,0 +1,72 @@
+body{
+
+    background-color: #A0F6FE;
+}
+
+button{
+    height:200px;
+    width:200px;
+    border-radius: 100px;
+    border-width: 5px;
+    border-color:white;
+    margin: 30px;
+    }
+    button:hover{
+        background-color: black;
+    }
+ #first-row {
+     text-align: center;
+     
+ }
+ #second-row {
+    text-align: center;
+ }
+ #third-row {
+    text-align: center;
+ }
+
+    .red{
+        background-image: url("RedNail.svg");
+
+    }
+    .pink{
+        background-image: url("PinkNail.svg");
+
+    }
+    .orange{
+        background-image: url("OrangeNail.svg");
+    }
+    .yellow{
+        background-image: url("YellowNail.svg");
+    }
+    .green{
+        background-image: url("GreenNail.svg");
+    }
+    .blue{
+        background-image: url("BlueNail.svg");
+    }
+    .purple{
+        background-image: url("PurpleNail.svg");
+    }
+    .grey{
+        background-image: url("GreyNail.svg");
+    }
+    .taupe{
+        background-image: url("TaupeNail.svg");
+    }
+    .white{
+        background-image: url("WhiteNail.svg");
+    }
+    .bright{
+        background-image: url("BrightNail.svg");
+    }
+    .black {
+        background-image: url("BlackNail.svg");
+    }
+
+
+
+
+
+
+    
