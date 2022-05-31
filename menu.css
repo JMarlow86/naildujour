@@ -1,72 +1,83 @@
 body{
 
     background-color: #A0F6FE;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("SelectPolish.svg");
+}
+h1{
+    color: white;
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow: 2px 2px #FF66C4;
 }
 
-button{
-    height:200px;
-    width:200px;
-    border-radius: 100px;
-    border-width: 5px;
-    border-color:white;
-    margin: 30px;
-    }
-    button:hover{
-        background-color: black;
-    }
- #first-row {
-     text-align: center;
-     
- }
- #second-row {
+.dropbtn {
+    color: black;
+    font-size: 30pt;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: #A0F6FE;
+    border: none;
+    cursor: pointer;
+    /* padding-left: 120px; */
+}
+.dropbtn:hover {
+    color: white;
+    text-shadow: 2px 2px #FF66C4;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block; 
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    border-color: black;
+    min-width: 300px;
+    box-shadow: 0px 16px 32px 
+        0px #FF66C4;
+    /* z-index: 1; */
+}
+.dropdown-content a {
+color: black;
+padding-left: 80px; 
+text-decoration: none;
+display: block;
+}
+
+.dropdown-content a:hover {
+background-color: #EAED2B;
+border-radius: 80px;
+}
+
+.dropdown:hover .dropdown-content {
+display: block;
+}
+
+.dropdown:hover .dropbtn {
+background-color: #A0F6FE;
+}
+
+#choice1 {
+    border-radius: 50px;
+    padding-top: 30px;
+}
+
+
+img{
+    border-radius: 200px;
+    padding-right: 90px;
+}
+#column-1 {
     text-align: center;
- }
- #third-row {
-    text-align: center;
- }
-
-    .red{
-        background-image: url("RedNail.svg");
-
-    }
-    .pink{
-        background-image: url("PinkNail.svg");
-
-    }
-    .orange{
-        background-image: url("OrangeNail.svg");
-    }
-    .yellow{
-        background-image: url("YellowNail.svg");
-    }
-    .green{
-        background-image: url("GreenNail.svg");
-    }
-    .blue{
-        background-image: url("BlueNail.svg");
-    }
-    .purple{
-        background-image: url("PurpleNail.svg");
-    }
-    .grey{
-        background-image: url("GreyNail.svg");
-    }
-    .taupe{
-        background-image: url("TaupeNail.svg");
-    }
-    .white{
-        background-image: url("WhiteNail.svg");
-    }
-    .bright{
-        background-image: url("BrightNail.svg");
-    }
-    .black {
-        background-image: url("BlackNail.svg");
-    }
-
-
-
-
-
-
-    
+     /* padding-left: 600px;  */
+}
+  #fingers{
+      padding-left: 60px;
+  
+} 
