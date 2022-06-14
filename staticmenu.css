@@ -1,0 +1,67 @@
+body{
+  
+  border: 25px solid #E9ED2B;
+
+  background-image: url("flowers.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  
+  
+
+
+}
+#title{
+  text-align: center;
+  padding-right: 280px;
+}
+#hand {
+    /* margin-right: 100px ;
+   
+  
+   
+    background-color: white;
+    border: 5px solid #E9ED2B;
+    
+    /* min-height: max-content; */
+   
+   
+ }
+
+#M {
+  text-align: center;
+  color: black;
+  text-shadow: 6px 1px #A0F6FE;
+  padding-left: 200px;
+  font-size: 200pt;
+  font-family: didot;
+}
+
+#enu {
+  text-align: center;
+  box-shadow: 2px 1px black;
+  text-shadow: 6px 1px black;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 100px;
+  background: -webkit-linear-gradient(#FF66C4, #EAED2B,#FF66C4);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+p{
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+  text-shadow: 1pt  grey;
+  
+  color: #FF66C4;
+  
+}
+
+
+
+
+ 
+  
+    
+  
+
+
+
