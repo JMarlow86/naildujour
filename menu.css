@@ -1,83 +1,76 @@
 body{
-
-    background-color: #A0F6FE;
+    background-image: url("selection.svg");
     background-size: cover;
     background-repeat: no-repeat;
-    background-image: url("SelectPolish.svg");
-}
-h1{
-    color: white;
-    text-align: center;
-    padding-bottom: 50px;
-    padding-top: 50px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    text-shadow: 2px 2px #FF66C4;
 }
 
-.dropbtn {
-    color: black;
-    font-size: 30pt;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    background-color: #A0F6FE;
-    border: none;
-    cursor: pointer;
-    /* padding-left: 120px; */
-}
-.dropbtn:hover {
-    color: white;
-    text-shadow: 2px 2px #FF66C4;
-}
 
-.dropdown {
-    position: relative;
-    display: inline-block; 
+#title{
+    padding: 100px;
+   
 }
-
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    border-color: black;
-    min-width: 300px;
-    box-shadow: 0px 16px 32px 
-        0px #FF66C4;
-    /* z-index: 1; */
-}
-.dropdown-content a {
-color: black;
-padding-left: 80px; 
-text-decoration: none;
-display: block;
-}
-
-.dropdown-content a:hover {
-background-color: #EAED2B;
-border-radius: 80px;
-}
-
-.dropdown:hover .dropdown-content {
-display: block;
-}
-
-.dropdown:hover .dropbtn {
-background-color: #A0F6FE;
-}
-
-#choice1 {
+#row1 {
+    background: rgba(255, 255, 255, 0.4);
+    margin-left: 40px;
+    margin-right: 40px;
     border-radius: 50px;
-    padding-top: 30px;
 }
-
-
-img{
-    border-radius: 200px;
-    padding-right: 90px;
-}
-#column-1 {
+#grey {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 14pt;
     text-align: center;
-     /* padding-left: 600px;  */
+    margin-left: 0px;
+    color: black;
 }
-  #fingers{
-      padding-left: 60px;
+#purple {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 14pt;
+    text-align: center;
+    padding-left: 20px;
+    color: red;
+
+}#pink {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 14pt;
+    text-align: right;
   
-} 
+
+}
+#blue {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 14pt;
+    text-align: right;
+   
+}
+#green{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 14pt;
+    text-align: center;
+    padding-left: 70px;
+ 
+
+}
+#yellow{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 14pt;
+    text-align: center;
+    padding-left: 85px;
+   
+
+}
+#orange{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 14pt;
+    padding-left: 90px;
+    text-align: center;
+   
+}
+#red{
+    
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 14pt;
+    text-align: center;
+   
+    padding-left: 100px;
+    margin-left: 50px;
+}
