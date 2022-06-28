@@ -3,74 +3,26 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
 }
-
-
-#title{
-    padding: 100px;
-   
-}
-#row1 {
-    background: rgba(255, 255, 255, 0.4);
-    margin-left: 40px;
-    margin-right: 40px;
-    border-radius: 50px;
-}
-#grey {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 14pt;
-    text-align: center;
-    margin-left: 0px;
-    color: black;
-}
-#purple {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 14pt;
-    text-align: center;
-    padding-left: 20px;
-    color: red;
-
-}#pink {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 14pt;
-    text-align: right;
+.container {
   
+  text-align: center;
+}
 
+#row1 {
+    padding-top: 200px;
 }
-#blue {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 14pt;
-    text-align: right;
-   
-}
-#green{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 14pt;
-    text-align: center;
-    padding-left: 70px;
- 
-
-}
-#yellow{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 14pt;
-    text-align: center;
-    padding-left: 85px;
-   
-
-}
-#orange{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 14pt;
-    padding-left: 90px;
-    text-align: center;
-   
-}
-#red{
+.shrink img {
+    transition: 1s ease;
+    }
     
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 14pt;
-    text-align: center;
-   
-    padding-left: 100px;
-    margin-left: 50px;
-}
+    .shrink img:hover{
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(0.8);
+    transition: 1s ease;
+    
+    }
+    
+    
+
+

@@ -1,14 +1,26 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:300,400,700);
+
+
+
+
 body {
-  background: #FD6EBE;
+  background-image: url("loginform.svg");
+  background-color: #FF66C4;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
   color: #fff;
   font-weight: 400;
   font-size: 1em;
   font-family: 'Lato', Arial, sans-serif;
-  margin-top:40px;
+  /* margin-top:40px; */
   padding:0;
-  padding-bottom:60px;
+  /* padding-bottom:60px; */
 }
+
+/* .row {
+  padding-top: 200px;
+} */
+
 .ccheader {
   margin: 0 auto;
   padding: 2em;
@@ -89,7 +101,7 @@ body {
   color:#fff;
   width: 800px;
   clear:both;
-margin:0 auto;
+  margin:0 auto;
   line-height:25px;
  padding: 25px 50px; 
 }
@@ -113,7 +125,7 @@ text-decoration: none;
   a{
     margin-left: 35px;
     margin-top: 35px;
-    position: fixed;
+    position: absolute;
     transform: translate(-50%, -50%);
     display: block;
     font-size: 24px;
@@ -147,17 +159,39 @@ text-decoration: none;
 
   }
   .s{
+    margin-left: 350px;
    /* playing with flex box */
      
-   display: flex;
+   /* display: flex;
       justify-content: center;
-      align-items: center;
-      height: 200px;
+      align-items: center; */
+      /* height: 200px; */
      
     
   }
 .b {
   margin-left: 25px;
 
+  }
+  #nail {
+    margin-left: 460px;
+    text-align: center;
+    color: black;
+    text-shadow: 6px 1px #A0F6FE;
+    padding-left: 200px;
+    font-size: 200pt;
+    font-family: didot;
+  }
+  
+  #dujour {
+    text-align: center;
+    box-shadow: 2px 1px black;
+    border-radius: 25px;
+    text-shadow: 6px 1px black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 100px;
+    background: -webkit-linear-gradient(#FF66C4, #A0F6FE,#FF66C4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
 
