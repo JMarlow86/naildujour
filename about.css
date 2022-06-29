@@ -1,34 +1,20 @@
 body{
   background-color: #A0F6FE;
-}
-
-
-.wrapper{
-
-    margin-left: 9px;
-    margin-top: 37px;
-    position: fixed;
-    letter-spacing: 1px;
-    top: 85%; 
-    left: 87%; 
-    transform: translate(-50%, -50%);
-    
+  background-image: url('aboutimg.svg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;   
+  background-position: center;
+  background-size: contain;
 }
  
-.b{
+.back{
     margin-left: 240px;
-    margin-top: 223px;
-   
+    margin-top: 230px;
     letter-spacing: 1px;
     position: fixed;
     transform: translate(-50%, -50%);
 }
 
-
-
-
-  
-  
   a{
     display: block;
     font-size: 24px;
@@ -44,9 +30,6 @@ body{
     padding: 20px;
     text-align: center;
   }
-  
-
-  
   
   a:hover{
    letter-spacing: 15px;
