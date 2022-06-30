@@ -1,0 +1,72 @@
+
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Menu</title>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> 
+  <link rel="stylesheet" href="order.css">
+    <link rel="stylesheet">
+    <script src="order.js"></script>
+    
+    <script>
+        $(document).ready(function () {
+            $("#test").CreateMultiCheckBox({ width: '230px', defaultText : 'Choose Your Polish', height:'250px' });
+        });
+    </script>
+       <script>
+        $(document).ready(function () {
+            $("#test2").CreateMultiCheckBox({ width: '230px', defaultText : 'Choose Your Beverage', height:'250px' });
+        });
+    </script>
+</head>
+
+
+<body>
+    <div class="container">
+        <div class="row" id="title">
+          <div class="col-md-"> 
+            <span id="nail">Nail</span>
+            <span id="dujour">dujour</span>
+          </div>
+    <div class="container">
+        <div class="row" id="selection">
+            <div class="col-sm-4"></div>
+            <div class="col-sm-4">
+          <select id="test">
+            <option value="1">Ruby on Rails</option>
+            <option value="2">Oracle Orange</option>
+            <option value="3">Yaml Yellow</option>
+            <option value="4">Google Green</option>
+            <option value="5">Python Purple</option>
+            <option value="6">OOP-ink</option>
+            <option value="7">Intelli-grey</option>
+            <option value="8">Maven Mauve</option>
+          </select>
+        </div>  
+        <div class="col-sm-4">
+         <select id="test2">
+        <option value="1">Red Wine</option>
+        <option value="2">White Wine</option>
+        <option value="3">Prosecco</option>
+        <option value="4">Pale Ale</option>
+        <option value="5">Sparkling Water</option>
+        <option value="6">Still Water</option>
+        <option value="7">Fresh Juice</option>
+        <option value="8">Coke</option>
+         </select>
+        </div>
+    </div> 
+    <div class="row">
+     
+        <div class="col-sm-11"></div>
+        <div class="col-sm-1">
+    <button type="submit" id="submit">Submit</button>
+</div>
+</div>   
+    </div> 
+</body>
+</html>
